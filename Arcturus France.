@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcturus – Révolution mentale, jeu gratuit</title>
+  <meta name="description" content="Arcturus : une simulation narrative en VR/PC, gratuite et sans pub, pour révéler et déconstruire la société.">
+  <style>
+    body { margin:0; font-family:Arial,sans-serif; background:#111; color:#eee; }
+    header { padding:50px; text-align:center; background:#000; }
+    nav a { margin:0 15px; color:#eee; text-decoration:none; }
+    section { padding:60px 20px; max-width:900px; margin:auto; }
+    .button { display:inline-block; padding:15px 25px; background:#e33; color:#fff; text-decoration:none; font-size:18px; margin-top:20px; }
+    footer { text-align:center; padding:20px; background:#000; color:#555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ARCTURUS</h1>
+    <p>Révélez. Brisez. Reconstruisez.</p>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#prototype">Prototype</a>
+      <a href="#join">Nous rejoindre</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Pourquoi Arcturus ?</h2>
+    <p>Arcturus n’est pas un jeu. C’est un acte. Gratuit. Sans compromis. Il dérange, il bouscule, il réveille.</p>
+  </section>
+
+  <section id="features">
+    <h2>Ce que fait Arcturus</h2>
+    <ul>
+      <li>Simulation sociale immersive</li>
+      <li>Choix moraux lourds, irréversibles</li>
+      <li>Effet miroir : confronte-toi à toi-même</li>
+      <li>Module VR pour distorsions mentales</li>
+      <li>100 % open source, 100 % gratuit</li>
+    </ul>
+  </section>
+
+  <section id="prototype">
+    <h2>Joue le prototype</h2>
+    <p>Découvre le premier chapitre narratif, en 15 minutes chrono.</p>
+    <a href="prototype/index.html" class="button">Lancer le prototype</a>
+  </section>
+
+  <section id="join">
+    <h2>Rejoins la communauté</h2>
+    <p>Développeur·euse, artiste, philosophe, testeur·euse ? Viens construire Arcturus.</p>
+    <form action="https://formspree.io/f/votre-form-id" method="POST">
+      <input type="email" name="email" placeholder="Ton e‑mail" required>
+      <select name="rôle">
+        <option value="dev">Développeur</option>
+        <option value="art">Artiste</option>
+        <option value="writer">Écrivain</option>
+        <option value="philo">Philosophe</option>
+        <option value="tester">Testeur·euse</option>
+      </select>
+      <textarea name="message" placeholder="Pourquoi Arcturus ?" rows="4"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Arcturus © 2025 — Libre. Gratuit. Révolutionnaire.</p>
+  </footer>
+</body>
+</html>
